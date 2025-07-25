@@ -1,0 +1,206 @@
+/* 전체 배경 및 폰트 설정 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 15px;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* 문서 본문 영역 */
+.wrapper {
+  max-width: 980px;
+  margin-top: 20px;     /* 위쪽만 */
+  margin-bottom: 20px;  /* 아래쪽만 */
+  margin-left: 40px;     /* 왼쪽만 */
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 40px;
+  border: 1px solid #ccc;
+}
+
+.document-title {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top:20px;
+}
+
+.recent-change{
+  margin-top:5px;
+}
+
+/* 목차 스타일 */
+.toc {
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  width: 250px;
+  margin-top:100px;
+}
+
+.toc-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.toc ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.toc li {
+  margin: 5px 0;
+}
+
+.toc a {
+  text-decoration: none;
+  color: #1f75cb;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+
+/* 문단 제목 스타일 */
+.section {
+  font-size: 25px;
+  padding: 5px 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d3d3d3c8;
+}
+
+/* 내용 박스 */
+.content-box {
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.linkword {
+  color: #1f75cb;
+  text-decoration: none;
+}
+
+ul {
+  line-height: 1.7; /* 줄 간격을 2배로 설정 */
+}
+
+.quote-box {
+    background-color: #f1f1f1; /* 배경색 */
+    border-left: 5px solid #58a700; /* 왼쪽에 초록색 선 추가 */
+    border-right: 3px dashed #d3d3d3c8;
+    border-top: 3px dashed #d3d3d3c8;
+    border-bottom: 3px dashed #d3d3d3c8;
+    padding:15px;
+    margin: 15px 0; /* 위 아래 마진 */
+}
+.quote-box p {
+    margin: 0; /* 문단 마진 제거 */
+}
+
+a:hover {
+    text-decoration: underline; /* 링크 hover 시 밑줄 추가 */
+}
+
+.refno {
+  color:#1f75cb;
+}
+
+.ref{
+  font-size: 0.8em;
+  color:#1f75cb;
+  vertical-align: top;
+  text-decoration: none;
+}
+
+.ref-text{
+  margin:0;
+}
+
+.line{
+  text-decoration: line-through;
+  color:#6363636e;
+}
+
+/* ✅ 상단 네비게이션 바 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #5aa39c, #65b179);
+  padding: 10px 20px;
+  color: white;
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left .logo {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.random-button {
+  background: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.random-button i {
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+
+.search-box input {
+  border: none;
+  padding: 6px 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-box i {
+  color: #333;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.nav-icon {
+  margin-left: 10px;
+  font-size: 18px;
+  color: white;
+}
+
