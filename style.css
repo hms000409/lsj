@@ -203,4 +203,57 @@ a:hover {
   font-size: 18px;
   color: white;
 }
+.infobox-wrapper{
+  overflow: hidden;
+  margin-top: 40px;
+  width:100%;
+}
+
+.infobox {
+      float:right;
+      width: 280px;
+      margin: 0 0 20px 20px;
+      border: 1px solid #aaa;
+      background-color: #f9f9f9;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+.infobox img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+.infobox .title {
+      font-weight: bold;
+      font-size: 16px;
+      background-color: #000;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+.infobox table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+.infobox th, .infobox td {
+      border: 1px solid #ddd;
+      padding: 6px 8px;
+      vertical-align: top;
+    }
+
+.infobox th {
+      background-color: #000000;
+      width: 20%;
+      text-align: left;
+      color:#ccc
+    }
+
+.infobox td {
+      background-color: #fff;
+    }
+
 
